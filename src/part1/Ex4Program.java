@@ -24,12 +24,12 @@ public class Ex4Program {
 		Thread th = Thread.currentThread();
 		th.setName("MAIN");
 		print();
-		
+		 
 		System.out.printf("%s : %s \n", th1.getName(), th1.getState());
 		System.out.println("===================Main Exit ======================");
 	}
 
-	private static void print() {
+	private static void print() { 
 		Thread thread = Thread.currentThread();
 		
 //		System.out.printf("Thread ID : %d\n", thread.getId());
