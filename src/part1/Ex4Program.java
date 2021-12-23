@@ -27,7 +27,7 @@ public class Ex4Program {
 		 
 		System.out.printf("%s : %s \n", th1.getName(), th1.getState());
 		System.out.println("===================Main Exit ======================");
-	}
+	}   
 
 	private static void print() { 
 		Thread thread = Thread.currentThread();
