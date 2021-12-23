@@ -26,10 +26,10 @@ public class Ex3Program {
 	private static void print() {
 		Thread thread = Thread.currentThread();
 		
-//		System.out.printf("Thread ID : %d\n", thread.getId());
-//		System.out.printf("Thread Name : %s\n", thread.getName());
-//		System.out.printf("Thread Status : %s\n", thread.getState());
-//		System.out.printf("Thread Priority : %d\n", thread.getPriority());
+		System.out.printf("Thread ID : %d\n", thread.getId());
+		System.out.printf("Thread Name : %s\n", thread.getName());
+		System.out.printf("Thread Status : %s\n", thread.getState());
+		System.out.printf("Thread Priority : %d\n", thread.getPriority());
 		
 		for(int i=0 ; i < 100 ; i ++) {
 		
