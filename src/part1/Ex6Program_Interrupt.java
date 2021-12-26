@@ -55,10 +55,15 @@ public class Ex6Program_Interrupt {
 				Thread.sleep(20);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+//				e.printStackTrace();
+				System.out.println(" 누가 날깨워서 중단한다. ");
+				return ;
 			}
 			
-			if ( thread.isInterrupted())
+			if ( thread.isInterrupted()) {
+				System.out.println("-----------------쓰레드 중단 요청화서 중지 합니다.------------------");
+				return ;
+			}
 				
 		
 			System.out.printf("%s : %d \n", thread.getName(), i + 1);
